@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*  */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFEFEF;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+
+    width: 100vw;
+}
+
+body:before{
+    content: '';
+    background-color: #535971;
+
+    width: 100%;
+    height: 436px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    margin-top: 140px;
+    margin-left: 345px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+p {
+    width: 417px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+form {
+    margin: 58px 345px 0;
+    width: 750px;
+    height: 1200px;
+
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+fieldset{
+    border: none;
+    margin: 0 64px;
+}
+
+fieldset:first-child{
+    padding-top: 20px;
+}
+
+legend:first-child{
+    padding-top: 64px;
+}
+
+legend {
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+
+    border-bottom: 1px solid #E6E6F0;
+    width: 100%;
+
+    padding-bottom: 16px;
+}
+
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal {
+    display: flex;
+    gap: 22px;
+
+    width: 100%;
+}
+
+.name, .lastname{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 16px;
+}
+
+input {
+    box-sizing: border-box;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+
+    height: 56px;
+    font-size: 16px;
+}
+
+span {
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #C1BCCC;
+}
+
+span:hover{
+    color: #807d88;
+}
+
+.name input, .lastname input{
+    width: 300px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #535971;
+
+    margin-top: 32px;
+}
+
+.mentorship-dates{
+    display: flex;
+    gap: 32px;
+}
+
+
+.mentorship-dates input{
+    color: transparent;
+}
+
+.date-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-wrapper input {
+    width: 300px;
+}
+
+.time-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.time-wrapper input {
+    width: 140px;
+}
+
+.time-1, .time-2{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 750px;
+    height: 160px;
+    margin-left: 345px;
+
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer input{
+    font-family: 'Staatliches', cursive;
+    color: #FFFFFF;
+
+    background: #FF5374;
+    border-radius: 20px;
+    border: none;
+
+    width: 608px;
+}
